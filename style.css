@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #80808052;
+}
+.container {
+    margin-top: 20px;
+}
+table {
+    margin-top: 20px;
+}
+.filter-section {
+    margin-bottom: 20px;
+}
+.row p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.row select{
+    margin-right: 42px;
+    height: 35px;
+    width: 35vh;
+}
+.row button{
+    height: 35px;
+}
+h1{
+    background-color: purple;
+    color: white;
+}
+.table-bordered>:not(caption)>*>* {
+    padding: 3px;
+}
+@media screen and (max-width: 500px){
+    .row button{
+        margin-top: 20px;
+        width: 14vh;
+        margin-left: 10px;
+    }
+    .row select{
+        margin-left: 10px;
+        width: 44vh;
+    }
+    h1{
+        padding: 10px 0px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+}
