@@ -17,12 +17,16 @@ table {
     font-weight: bold;
 }
 .row select{
-    margin-right: 42px;
+    margin-right: 30px;
     height: 35px;
-    width: 35vh;
+    width: 30vh;
 }
 .row button{
     height: 35px;
+    width: 10vh;
+    margin-left: 3px;
+    font-weight: bold;
+    padding: 0px;
 }
 h1{
     background-color: purple;
@@ -34,17 +38,21 @@ h1{
 @media screen and (max-width: 500px){
     .row button{
         margin-top: 20px;
-        width: 14vh;
-        margin-left: 10px;
+        width: 10vh;
+        margin-left: 15px;
+        font-size: 16px;
     }
     .row select{
-        margin-left: 10px;
-        width: 44vh;
+        margin-left: 15px;
+        width: 43vh;
     }
     h1{
         padding: 10px 0px;
     }
     .copyright{
         font-size: 12px;
+    }
+    .row p{
+        margin-left: 5px;
     }
 }

@@ -23,8 +23,8 @@
         <table class="table table-bordered table-hover">
             <thead class="table-dark">
                 <tr>
-                    <th scope="col"><input type="checkbox" id="selectAll" onchange="toggleSelectAll(this)">Mark All</th>
-                    <th scope="col">S.No</th>
+                    <th scope="col"><input type="checkbox" id="selectAll" onchange="toggleSelectAll(this)">All</th>
+                    <th scope="col">Roll.No</th>
                     <th scope="col">Name</th>
                     <th scope="col">Q.ID</th>
                 </tr>
@@ -54,12 +54,13 @@
                         <option>Communication and Professional Skills III</option>
                         <option>Data Structure Programming Lab</option>
                     </select>
+                    <button class="btn btn-danger col-sm-1 btn-sm" onclick="clearSelectedTable()">Clear</button>
                     <button class="btn btn-primary col-sm-1 btn-sm" onclick="downloadTableAsImage()">Download</button>
                 </div>
             <table class="table table-bordered table-hover">
                 <thead class="table-dark">
                     <tr>
-                        <th scope="col">S.No</th>
+                        <th scope="col">Roll.No</th>
                         <th scope="col">Name</th>
                         <th scope="col">Q.ID</th>
                     </tr>

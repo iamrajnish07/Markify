@@ -89,6 +89,13 @@ function populateTable(filter = "all") {
                 <td>${student.name}</td>
                 <td>${student.id}</td>
             `;
+            row.addEventListener("click", (e) => {
+                if (e.target.tagName !== "INPUT") {
+                    const checkbox = row.querySelector(".rowCheckbox");
+                    checkbox.checked = !checkbox.checked;
+                    updateSelectedTable(checkbox, index);
+                }
+            });
 
             studentTable.appendChild(row);
         }
@@ -175,6 +182,14 @@ function downloadTableAsImage() {
         link.href = canvas.toDataURL("image/jpeg");
         link.click();
     });
+}
+
+// Clear the selected student table
+function clearSelectedTable() {
+    selectedTable.innerHTML = "";
+    const checkboxes = document.querySelectorAll(".rowCheckbox");
+    checkboxes.forEach(checkbox => (checkbox.checked = false));
+    saveSelection();
 }
 
 // Initialize the table on page load
