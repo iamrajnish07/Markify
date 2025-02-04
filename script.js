@@ -1,7 +1,7 @@
  // Sample student data with set information
  const students = [
+     { id: "24030901", name: "ABHISHEK KUMAR", set:"A"},
     { id: "23030838", name: "AHMAD ZAID", set:"A"},
-    { id: "24030901", name: "ABHISHEK KUMAR", set:"A"},
     { id: "23030847", name: "ANAS", set:"A"},
     { id: "23030825", name: "ANIMESH KUMAR", set:"A"},
     { id: "23030861", name: "ANISHA KUMARI JHA", set:"A"},
@@ -76,7 +76,7 @@
 const studentTable = document.getElementById("studentTable");
 const selectedTable = document.getElementById("selectedTable");
 
-// Populate the main table with student data
+// Populate the main table with student data >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 function populateTable(filter = "all") {
     studentTable.innerHTML = ""; // Clear existing rows
     students.forEach((student, index) => {
@@ -103,7 +103,7 @@ function populateTable(filter = "all") {
     restoreSelection();
 }
 
-// Restore selected rows from localStorage
+// Restore selected rows from localStorage >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 function restoreSelection() {
     const savedSelections = JSON.parse(localStorage.getItem("selectedStudents")) || [];
     const checkboxes = document.querySelectorAll(".rowCheckbox");
