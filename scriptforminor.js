@@ -26,7 +26,6 @@
     { id:"23030483", name:"Khushi saini", set:"N"},
     { id:"23030335", name:"Mahak", set:"N"},
     { id:"23030641", name:"Piyush Gupta", set:"N"},
-    { id:"23030632", name:"Pranjal Raj", set:"N"},
     { id:"23030281", name:"Prashant", set:"N"},
     { id:"23030286", name:"Pravesh Pant", set:"N"},
     { id:"23030449", name:"Prince chauhan", set:"N"},
