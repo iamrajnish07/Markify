@@ -6,6 +6,7 @@
     { id:"23030196", name:"Adarsh Shandilya", set:"N"},
     { id:"23030516", name:"Aditya kumar", set:"N"},
     { id:"23030776", name:"Aditya Singh Rathor", set:"N"},
+    { id:"23030802", name:"Akansha Rana", set:"N"},
     { id:"23030596", name:"Akash kumar", set:"N"},
     { id:"23030193", name:"Akhtar raza", set:"N"},
     { id:"23030391", name:"Amit Kumar Vashishtha", set:"N"},
