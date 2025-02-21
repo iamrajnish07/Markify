@@ -28,6 +28,15 @@ table {
     font-weight: bold;
     padding: 0px;
 }
+.box{
+    display: flex;
+    gap: 5vh;
+    height: 25px;
+    
+}
+.box select, button{
+    width: 80vh;
+}
 h1{
     background-color: purple;
     color: white;
@@ -54,5 +63,12 @@ h1{
     }
     .row p{
         margin-left: 5px;
+    }
+    .box{
+        gap: 30px;
+        height: 25px;
+    }
+    .box select, button{
+        width: 20vh;
     }
 }
