@@ -1,0 +1,58 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #80808052;
+}
+.container {
+    margin-top: 20px;
+}
+table {
+    margin-top: 20px;
+}
+.filter-section {
+    margin-bottom: 20px;
+}
+.row p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.row select{
+    margin-right: 30px;
+    height: 35px;
+    width: 30vh;
+}
+.row button{
+    height: 35px;
+    width: 10vh;
+    margin-left: 3px;
+    font-weight: bold;
+    padding: 0px;
+}
+h1{
+    background-color: purple;
+    color: white;
+}
+.table-bordered>:not(caption)>*>* {
+    padding: 3px;
+}
+@media screen and (max-width: 500px){
+    .row button{
+        margin-top: 20px;
+        width: 10vh;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .row select{
+        margin-left: 15px;
+        width: 43vh;
+    }
+    h1{
+        padding: 10px 0px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .row p{
+        margin-left: 5px;
+    }
+}
