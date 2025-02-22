@@ -53,7 +53,8 @@ h1{
     }
     .row select{
         margin-left: 15px;
-        width: 43vh;
+        width: 46vh;
+        margin-top: 10px;
     }
     h1{
         padding: 10px 0px;
@@ -63,12 +64,13 @@ h1{
     }
     .row p{
         margin-left: 5px;
+        margin-bottom: 0px;
     }
     .box{
-        gap: 30px;
+        gap: 20px;
         height: 25px;
     }
     .box select, button{
-        width: 20vh;
+        width: 22vh;
     }
 }
