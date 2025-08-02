@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     margin: 0px;
     padding: 0px;
@@ -73,4 +74,81 @@ h1{
     .box select, button{
         width: 22vh;
     }
+=======
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #80808052;
+}
+.container {
+    margin-top: 20px;
+}
+table {
+    margin-top: 20px;
+}
+.filter-section {
+    margin-bottom: 20px;
+}
+.row p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.row select{
+    margin-right: 30px;
+    height: 35px;
+    width: 30vh;
+}
+.row button{
+    height: 35px;
+    width: 10vh;
+    margin-left: 3px;
+    font-weight: bold;
+    padding: 0px;
+}
+.box{
+    display: flex;
+    gap: 5vh;
+    height: 25px;
+    
+}
+.box select, button{
+    width: 80vh;
+}
+h1{
+    background-color: purple;
+    color: white;
+}
+.table-bordered>:not(caption)>*>* {
+    padding: 3px;
+}
+@media screen and (max-width: 500px){
+    .row button{
+        margin-top: 20px;
+        width: 10vh;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .row select{
+        margin-left: 15px;
+        width: 46vh;
+        margin-top: 10px;
+    }
+    h1{
+        padding: 10px 0px;
+    }
+    .copyright{
+        font-size: 12px;
+    }
+    .row p{
+        margin-left: 5px;
+        margin-bottom: 0px;
+    }
+    .box{
+        gap: 20px;
+        height: 25px;
+    }
+    .box select, button{
+        width: 22vh;
+    }
+>>>>>>> 43369d80199d8ddb9563592a9b2ab4522baf6d62
 }
