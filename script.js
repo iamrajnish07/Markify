@@ -54,7 +54,6 @@
    { id: "23030402", name: "ROHIT CHOUDHARY", set:"B"},
    { id: "23030041", name: "ROHIT KUMAR", set:"B"},
    { id: "23030924", name: "ROSHAN CHAUDHARY", set:"B"},
-   { id: "23030725", name: "SACHIN KUMAR", set:"B"},
    { id: "23030469", name: "SACHIN SHARMA", set:"B"},
    { id: "23030903", name: "SAGAR GAUTAM", set:"B"},
    { id: "23030653", name: "SAHIL", set:"B"},
@@ -194,3 +193,4 @@ function clearSelectedTable() {
 
 // Initialize the table on page load
 populateTable();
+
