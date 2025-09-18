@@ -40,7 +40,7 @@
    { id: "23030719", name: "PRIYANKA RAWAT", set:"A"},
    { id: "23030707", name: "PRIYANSHU BHARGAVA", set:"B"},
    { id: "23030213", name: "PRIYANSHU PANWAR", set:"B"},
-   { id: "23030163", name: "RAGHAV SRIVASTAVA", set:"B"},
+   // { id: "23030163", name: "RAGHAV SRIVASTAVA", set:"B"},
    { id: "23030470", name: "RAHUL SHARMA", set:"B"},
    { id: "23030283", name: "RAHUL KUMAR GUPTA", set:"B"},
    { id: "23030616", name: "RAJNISH SHARMA", set:"B"},
