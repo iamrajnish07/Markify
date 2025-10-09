@@ -1,11 +1,11 @@
  // Sample student data with set information
  const students = [
+    { id: "24030767", name: "ANUSHKA RICHA", set:"B"},
     { id: "24030901", name: "ABHISHEK KUMAR", set:"A"},
    { id: "23030838", name: "AHMAD ZAID", set:"A"},
    { id: "23030847", name: "ANAS", set:"A"},
    { id: "23030825", name: "ANIMESH KUMAR", set:"A"},
    { id: "23030861", name: "ANISHA KUMARI JHA", set:"A"},
-   { id: "24030767", name: "ANUSHKA RICHA", set:"B"},
    { id: "23030906", name: "CHANDRA PRAKASH", set:"A"},
    { id: "23030896", name: "GOPAL KUMAR JHA", set:"A"},
    { id: "23030860", name: "HARSH CHAUBEY", set:"A"},
@@ -84,7 +84,7 @@ function populateTable(filter = "all") {
 
             row.innerHTML = `
                 <td><input type="checkbox" class="rowCheckbox form-check-input" onchange="updateSelectedTable(this, ${index})"></td>
-                <td>${index + 1}</td>
+                <td>${index}</td>
                 <td>${student.name}</td>
                 <td>${student.id}</td>
             `;
