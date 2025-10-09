@@ -6,7 +6,6 @@
    { id: "23030847", name: "ANAS", set:"A"},
    { id: "23030825", name: "ANIMESH KUMAR", set:"A"},
    { id: "23030861", name: "ANISHA KUMARI JHA", set:"A"},
-   { id: "24030767", name: "ANUSHKA RICHA", set:"B"},
    { id: "23030906", name: "CHANDRA PRAKASH", set:"A"},
    { id: "23030896", name: "GOPAL KUMAR JHA", set:"A"},
    { id: "23030860", name: "HARSH CHAUBEY", set:"A"},
