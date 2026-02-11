@@ -83,7 +83,7 @@ function populateTable(filter = "all") {
 
             row.innerHTML = `
                 <td><input type="checkbox" class="rowCheckbox form-check-input" onchange="updateSelectedTable(this, ${index})"></td>
-                <td>${index}</td>
+                <td>${index+1}</td>
                 <td>${student.name}</td>
                 <td>${student.id}</td>
             `;
@@ -136,7 +136,7 @@ function updateSelectedTable(checkbox, index, save = true) {
             row.setAttribute("data-index", index);
 
             row.innerHTML = `
-                <td>${index}</td>
+                <td>${index+1}</td>
                 <td>${student.name}</td>
                 <td>${student.id}</td>
             `;
